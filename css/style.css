@@ -1,0 +1,511 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003580;
+   width: 100%;
+   
+}
+.headerlogo{
+    margin-left: 4%;
+}
+.headerh1{
+    color: wheat;
+    
+}
+nav {
+    
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    width: 400px;
+    height: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+nav a {
+    
+   width: 50px;
+    display: block;
+    color: white;
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+/* Change color on hover */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.headercontact{
+    margin-right: 15%;
+}
+.headercontact_p{
+    color: white;
+}
+
+.coverfotodiv{
+    background-image: url("../images/div1/div1_img2.jpg");
+    width: 100%;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    
+}
+
+.coverfotodiv-infut-wrapper{
+    
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.coverfotodiv-infut{
+    width: 400px;
+    height: 35px;
+  
+}
+.coverbutton{
+    height: 35px;
+    width: 80px;
+    margin-left: 10px;
+    border: none;
+    background-color: #ffc107;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*       meore    divi     მეორე      დივი----- */
+
+.divwrapper2{
+   
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.divwrapper22{
+   
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.diwwraper2-p2{
+    margin-top: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
+.diwwraper2-p3{
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.heart-icon{
+    height: 25px;
+}
+
+
+/* items style------------                                  ------------------*/
+#items-container{
+    width: 100%;
+   
+}
+#itemList{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 20px;
+
+}
+/* ეს არის თითოეული იტემის ყუთი */
+.item{ 
+    width: 280px;
+    height: 540px;
+    margin-top: 30px;
+    
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.itemimg{
+    width: 280px;
+    height: 230px;
+    margin-bottom: 20px;
+
+}
+.item>h2{
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+.item>h3{
+    color: #858585;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.item>p{
+    width: 95%;
+    margin-left: 10px;
+
+    color: #212121;
+}
+
+.itemprice{
+    width: 100%;
+    font-size: 15px;
+}
+/* ეს აკეთებს ხაზის გავლებას ქვემოდან დივის */
+.itemprice::after {
+    content: "";
+     border: 1px solid #9fac9d;
+      width: 100%;
+     display: block;
+     margin-top: 15px;
+    }
+
+.itemprice::before {
+    content: "";
+        border: 1px solid #9fac9d;
+        width: 100%;
+        display: block;
+        margin-bottom: 15px;
+    }
+.description{
+    margin-top: 10px;
+}
+.description::after {
+    content: "";
+  
+    border: 1px solid #9fac9d;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+
+
+
+
+
+
+.itembutton{
+    background-color: #ffc107;
+    border:  none;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 30%;
+    color: #FFFFFF;
+}
+
+
+
+/* section 3 */
+
+.section3{
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    background: url('../images/sect3/sec3-img.jpg') ;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.sect3-img{
+    position: absolute;
+    max-width: 300px;
+    height: 350px;
+
+}
+
+
+/*----------------------------- conteiner 4 - item 2------------------------- */
+
+#items-container2{
+    margin-top: 80px;
+}
+#itemList2{
+    display: flex;
+    width: 100%;
+    height: 270px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 20px;
+ 
+}
+.item2{
+    position: relative;
+    height: 290px;
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemimg2{
+    max-width: 290px;
+    height: 280px;
+    position: absolute;
+}
+
+.item2title{
+    position: absolute;
+    color: white;
+    margin-top:195px;
+    margin-left: 20px;
+    font-size: larger;
+    font-size: 20px;
+   
+}
+.item2icon{
+    width: 100px;
+    color: wheat;
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin-top:232px;
+    margin-left: 20px;
+}
+.itemprice2from{
+    position: absolute;
+    color: white;
+    margin-top:234px;
+    margin-left: 50px;
+    font-size: larger;
+    font-size: 14px;
+}
+.itemprice2{
+    position: absolute;
+    color: white;
+    margin-top:230px;
+    margin-left: 90px;
+    font-size: larger;
+    font-size: 20px;
+}
+/*------------------------ section5 ------------*/
+.section5{
+    margin-top: 10px;
+    position: relative;
+    width: 100%;
+    background: url('../images/sect5/tac9.jpg') ;
+    height: 450px;
+    background-size: cover; /* Adjust as needed */
+    background-position: center center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section5_p{
+    width: 630px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 23px;
+    vertical-align: baseline;
+    font-family: 'Work Sans', sans-serif;
+}
+/* section6-div1-wrapper--------------------- */
+.section6-div1-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #003580;
+    height: 220px;
+}
+
+.section6-div1-wrapper-textwrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 220px;
+    height: 200px;
+    align-items: center;
+   
+    
+}
+
+.section6-div-1-imgbacground{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #4fc3f7;
+    border-radius: 50px;
+
+}
+.section6-div1-img{
+    width: 30px;
+    height: 30px;
+   
+    
+}
+
+
+
+.section6-div1-h3{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section6-div1-p{
+    width: 200px;
+    color: #d5cdcd;
+    text-align: center;
+    
+    
+}
+
+
+/*-------------- footer -------------------*/
+
+
+footer{
+    width: 100%;
+    background-color: #00216c;
+    height: 300px;
+    
+}
+.footerheader{
+    height: 90px;
+    width: 100%;
+    padding-top: 40px;
+   
+    display: flex;
+    justify-content: space-around;
+}
+.footerdiv1{
+   
+    max-width: 220px;
+    height: 200px;
+   
+}
+.footerdiv1child1{
+    display: flex;
+    max-width: 220px;
+    height: 20px;
+    margin-top: 4px;
+}
+.iconfoter{
+    width: 15px;
+    height: 15px;
+   
+}
+.footerspan{
+    font-size: 13px;
+    color: white;
+    margin-left: 5px;
+    
+}
+
+.fototerdiv2{
+    display: flex;
+    flex-direction: column;
+}
+.fototerdiv2ahref{
+    color: white;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.footercentr{
+    width:100%;
+    height: 70px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footertravel{
+    width: 120px;
+}
+.footeremail{
+    max-width: 220px;
+    height: 25px;
+    background: #003580;
+    color: #fff;
+
+}
+.footeremail::placeholder{
+    margin-left: 10px;
+    padding-left: 15px;
+    color: #8a8484;
+   
+
+    
+}
+
+.footerbutton{
+    background-color: #ffc107;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 30px;
+    text-align: center;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    margin-left: -4px;
+}
+
+
+.footerend{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.footerendp{
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    padding-left: 30px;
+}
+.footerednpwrapper{
+    max-width: 700px;
+    
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.footerednpwrapperpteg{
+    width: 120px;
+    padding-right: 30px;
+}
